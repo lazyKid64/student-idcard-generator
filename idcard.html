@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>STUDENT ID</title>
+    <style>
+body {
+    background-color: white;
+    font-family: Arial;
+}
+.card {
+    width: 340px;
+    background-color: white;
+    margin: 45px auto;
+    padding: 15px;
+    border: 2px solid blue;
+}
+.card h1 {
+    color: blue;
+    text-align: center;
+    margin: 5px;
+}
+.card h2 {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.card hr {
+    border: 1px solid blue;
+}
+.row {
+    margin-top: 10px;
+}
+.row label {
+    color: blue;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+}
+.row input {
+    width: 180px;
+    padding: 4px;
+    border: 1px solid blue;
+    margin-left: 30px;
+}	
+.row select {
+    width: 180px; 
+    padding: 4px;
+    border: 1px solid blue;
+    font-family: Arial;
+    margin-left: 30px;
+}
+    </style>
+</head>
+<body>
+	<div class="card">
+		<h1>STUDENT ID</h1>
+		<h2>INDIAN INSTITUTE OF TECHNOLOGY</h2>
+		<hr>
+		<div class="row">
+			<label for ="name">Name</label>
+			<input id ="name" type="text" placeholder="Enter Name" required>
+		</div>
+		<div class="row">
+			<label for ="Enrollment ID">EnrollmentID</label>
+			<input id ="Enrollment ID" type="Enrollment ID" placeholder="Enter ID" required>
+		</div>
+        <div class="row">
+            <label for ="branch">Branch</label>
+            <input id ="branch" type="text" placeholder="Enter Branch" required>
+        </div>
+		<div class="row">
+			<label for ="DOB">D.O.B</label>
+			<input id ="DOB" type="date" placeholder="Enter DOB" required>
+		</div>
+		<div class="row">
+			<label for ="year">YEAR</label>
+			<input id ="year" type="year" placeholder="Enter YEAR" required>
+		</div>
+		<div class="row">
+            <label for ="gender">Gender</label>
+            <select id = "gender" required >
+                <option value ="" disabled selected>Select Gender</option>
+                <option value ="male">Male</option>
+                <option value ="female">Female</option>
+                <option value ="others">Others</option>
+            </select>
+        </div>
+		<hr>
+</div>
+</body>
+</html>
